@@ -1,5 +1,3 @@
-board = list(range(1, 10))
-
 def draw_board(board):
     print("-" * 13)
     for i in range(3):
@@ -52,4 +50,6 @@ def main(board):
             break
     draw_board(board)
 
-
+if __name__ == "__main__":
+    board = list(range(1, 10))
+    main(board)
